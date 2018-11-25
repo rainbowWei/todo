@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="guanbi" unicode="&#60266;" d="M548.992 392.256L885.44 728.672a31.968 31.968 0 1 1-45.248 45.248L503.744 437.504 167.328 773.92a31.968 31.968 0 1 1-45.248-45.248l336.416-336.416L122.08 55.84a31.968 31.968 0 1 1 45.248-45.248l336.416 336.416L840.16 10.56a31.968 31.968 0 1 1 45.248 45.248L548.992 392.256z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="xingzhuang-tuoyuanxing" unicode="&#60313;" d="M512-32C282.624-32 96 154.624 96 384S282.624 800 512 800s416-186.624 416-416-186.624-416-416-416z m0 768C317.92 736 160 578.08 160 384s157.92-352 352-352 352 157.92 352 352S706.08 736 512 736z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="kongxinduigou" unicode="&#60389;" d="M512-96C246.912-96 32 118.912 32 384 32 649.088 246.912 864 512 864c265.088 0 480-214.912 480-480 0-265.088-214.912-480-480-480z m0 64c229.76 0 416 186.24 416 416S741.76 800 512 800 96 613.76 96 384s186.24-416 416-416zM741.216 552a32 32 0 0 0 46.816-43.616l-315.296-338.208a32 32 0 0 0-43.968-2.688l-193.344 162.368a32 32 0 1 0 41.152 48.992l170.08-142.816 294.56 316z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
