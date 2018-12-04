@@ -1,5 +1,6 @@
 <template>
   <div class="todo">
+    <router-link to="/hello" >去hello</router-link>
     <p class="inp">
       <input type="text" placeholder="要添加的事项" v-model.trim="inp" @keyup.enter="handleAdd"/>
       <button class="add" @click="handleAdd">添加</button>
@@ -30,6 +31,7 @@
     <p class="buttons">
       <button v-for="button in doneTypes"
         :key="`button__${button.title}`"
+		
         :class="compelete === button.title ? 'active' : ''"
         @click="filter(button)"
       >
@@ -82,9 +84,14 @@ export default {
     },
     del (id) {
       // this.$store.dispatch('mapDel', id)
-      // this.mapDel(id)
+      this.mapDel(id)
 
-      this.$store.commit('DEL', id)
+      // this.$store.commit({
+      //   type: 'DEL',
+      //   id: id,
+      //   a: 2
+      // })
+      // this.$store.commit('DEL', {id: id, a: 2})
       // this.DEL(id)
     },
     toggle (id) {
@@ -92,18 +99,6 @@ export default {
     },
     filter (button) {
       this.$store.commit('FILTER', button)
-      // this.$store.commit({...button, type: 'FILTER', a: 1, b: 8})
-      // switch (button.title) {
-      // 	case 'done':
-      // 		this.list = this.todos.filter(todo => todo.done)
-      // 	  break
-      // 	case 'undone':
-      // 		this.list = this.todos.filter(todo => !todo.done)
-      // 	  break
-      // 	case 'all':
-      // 		this.list = this.todos
-      // 	  break
-      // }
       console.log(this.list)
     },
     show () {
@@ -121,6 +116,9 @@ export default {
 </script>
 
 <style>
+.todo {
+  position: absolute;
+}
 button {
   outline: none;
 }

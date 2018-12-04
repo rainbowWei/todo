@@ -7,13 +7,18 @@ import store from './store/store'
 
 import '@/assets/font/iconfont.css'
 
+
+// Vue.use(Router)
+
+// const router = new Router({
+//   routes
+// })
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
   router,
   store,
   components: { App },
   template: '<App/>'
-})
+}).$mount("#app")
