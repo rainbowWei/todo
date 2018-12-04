@@ -16,7 +16,7 @@ const state = {
       id: 1,
       txt: '减肥',
       done: true
-    }, 
+    },
     {
       id: 2,
       txt: '运动',
