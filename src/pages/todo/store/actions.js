@@ -1,5 +1,8 @@
 const actions = {
-  Del ({ commit }, val) {
+  // mapDel (store, val) {
+  //   store.commit('DEL', val)
+  mapDel ({ commit }, val) {
+    
     // this.$axios.post('/api/del.php', {index: 0, a: 1}, (req, resp) => {
     //   if (resp.response === 'ok') {
 
